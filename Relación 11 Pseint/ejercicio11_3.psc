@@ -1,0 +1,21 @@
+Algoritmo ejercicio11_3
+	
+	Escribir "Dime un nombre"
+	Leer nombre
+	nombre=Minusculas(nombre)
+	cont=0
+	Para j<-1 Hasta longitud(nombre) Hacer
+		
+		p<-subcadena(nombre,j,j)
+		
+		si p="a" o p="o" o p="e" o p="i" o p="u"
+			cont=cont+1
+			
+			 
+		FinSi
+		
+		
+	FinPara
+	escribir "Tu nombre tiene " cont " vocales"
+	
+FinAlgoritmo
